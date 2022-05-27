@@ -1,2 +1,8 @@
-# Aerospace-Ontology
-An otology has been built for the actual need of moving from the relational database to Graph-based database. 
+# Knowledge-Graph
+
+## Ontology Population
+## Ontology Deployment
+** Deployment on Neo4j using Neosemantics **
++ Design
++ Populate
++ Deploy

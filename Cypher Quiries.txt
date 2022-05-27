@@ -1,0 +1,14 @@
+semantics.importRDF("C:\Users\rod22\Desktop\Knowledge-Graph\addqualdb_populated.owl","RDF/XML",{ handleVocabUris: "IGNORE"})
+
+
+MATCH p=(x), (y)
+RETURN (x.name)-[r:ns0__isCommunicatorOf]->(y.name) RETURN p LIMIT 25
+
+
+MATCH p=(x), (y)
+RETURN (x.name)-[r:ns0__isCommunicatorOf]->(y.name) RETURN p LIMIT 25
+
+
+
+MATCH (Client001:ns0__Client{ns0__companyName:"Dynamic Aerospace Fabrications"})-[rel:ns0__isSenderOf]- (Ser:ns0__Serialised)
+ return Client001.ns0__companyName, Client001.ns0__country, Ser.ns0__partNumber, Ser.ns0__databaseId
