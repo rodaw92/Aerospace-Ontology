@@ -1,0 +1,73 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.addqual</groupId>
+	<artifactId>OwlFly</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<description>OwlFly is a tool which creates an ontology model and loads instancesfrom files.</description>
+
+	<dependencies>
+		<!-- Apache Jena Dependency 4.4.0 -->
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>apache-jena-libs</artifactId>
+			<type>pom</type>
+			<version>4.4.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.9.8</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.2.24</version>
+		</dependency>
+
+		<!--
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>jena-text</artifactId>
+			<version>4.4.0</version>
+		</dependency>
+
+		
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>jena-fuseki</artifactId>
+			<version>4.4.0</version>
+			<type>pom</type>
+			<scope>test</scope>
+		</dependency>
+
+		
+		<dependency>
+			<groupId>com.github.galigator.openllet</groupId>
+			<artifactId>openllet-jena</artifactId>
+			<version>2.6.5</version>
+		</dependency>
+
+	-->
+	
+   <dependency>
+     <groupId>com.h2database</groupId>
+     <artifactId>h2</artifactId>
+     <version>1.4.199</version>
+   </dependency>
+ </dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

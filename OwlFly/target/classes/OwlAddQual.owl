@@ -1,0 +1,1764 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#"
+     xml:base="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:wiki="https://www.wikidata.org/wiki/"
+     xmlns:ontaddqual="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual">
+        <owl:versionIRI rdf:resource="https://www.wikidata.org/wiki/Q24575087"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Batch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Batch">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q661613"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Batch"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Business -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Business">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q4830453"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Business"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Calliper -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Calliper">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q12408"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Calliper"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Client -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Client">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q852835"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Client"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Delivery_note -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Delivery_note">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q1508518"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Delivery_Note"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Document -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Document">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q49848"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Document"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Email -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Email"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Employee -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Employee">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q703534"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Employee"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Employer -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Employer">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Employer"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Human -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Human">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q5"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Human"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Image -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Image">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q478798"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Image"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Lazer_Scanning -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Lazer_Scanning">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q11873863"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LazerScanning"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Manufacturer -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Manufacturer">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Property:P176"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Manufacturer"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Measurement_Tool -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Measurement_Tool">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q1047213"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Measurement_Tool"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Metrology -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Metrology">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q394"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Metrology"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Micrometer -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Micrometer">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q12458"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Micrometer"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Note -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Note">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q133492"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Note"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Operator -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Operator">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Operator"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Package -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Package">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q13107365"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Package"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Part -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Part">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q15989253"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Part"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Process -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Process">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q3249551"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Process"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Tempreature -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Tempreature"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Tool -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Tool">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q39546"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Tool"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Visual -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Visual">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q162668"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Visual"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Visual_Inspection -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Visual_Inspection">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q448889"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Visual_Inspection"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#company_name -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#company_name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#hasPart -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#hasPart"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isCreatorOf -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isCreatorOf">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LazerScanner"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isPartOf -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isPartOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#name -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#name">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Human"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#serial_item -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#serial_item">
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q3479782"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Serilaized"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#serial_no -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#serial_no"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#workFor -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#workFor"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q104555 -->
+
+    <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Q104555">
+        <wiki:Q104555 rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Ruler"/>
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q104555"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Ruler"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#name -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#name"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Property:P137 -->
+
+    <rdfs:Datatype rdf:about="https://www.wikidata.org/wiki/Property:P137"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#hasPart">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isPartOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isAppliedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isAppliedTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isAssignedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isAssignedTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isAssignerOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isAssignerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isAssignerOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isCommunicatorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isCommunicatorOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isCreatorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isCreatorOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isDefinedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isDefinedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isDefinerOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isDefinerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isDefinerOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isGeneratedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isGeneratedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isGeneratorOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isGeneratorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isGeneratorOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isInitiatedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isInitiatedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isInitiatorOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isInitiatorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isInitiatorOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isMeasuredBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isMeasuredBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isMeasurerOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isMeasurerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isMeasurerOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isPartOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isRunnerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isRunnerOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isSenderOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isSenderOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isSentBy"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isSentBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isSentBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isVisualizedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isVisualizedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isVisualizerOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isVisualizerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isVisualizerOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isWorkerFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isWorkerFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <workFor rdf:resource="https://www.wikidata.org/wiki/Q6958747"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#PO -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#PO">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Package"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#actual -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#actual">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LaserScanning"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#batchNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#batchNumber">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Batch"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#broken -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#broken">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#VisualInspection"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#calibrationDev -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#calibrationDev">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Stats"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#calibrationProjDev -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#calibrationProjDev">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Stats"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#checkR -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#checkR">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LaserScanning"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#clientId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#clientId">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Client"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#coc -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#coc">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#GRN"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#comments -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#comments">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#GRN"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#companyName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#companyName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Business"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <company_name rdf:resource="https://www.wikidata.org/wiki/Q168678"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#country -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#country">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Client"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#databaseId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#databaseId">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LaserScanning"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#datum -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#datum">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LaserScanning"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#deliveryId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#deliveryId">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#department -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#department">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#JobCard"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#description">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Part"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#dev -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#dev">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LaserScanning"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#development -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#development">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Serialised"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#digitCycleTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#digitCycleTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Stats"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#dirty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#dirty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#VisualInspection"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#element -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#element">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LaserScanning"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#email">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#KeyContact"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <Email rdf:resource="https://www.wikidata.org/wiki/Property:P968"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#employeeId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#employeeId">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Employee"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#employerId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#employerId">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#evaluationTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#evaluationTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Stats"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#goodReceivedNotesId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#goodReceivedNotesId">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#GRN"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#greasy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#greasy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#VisualInspection"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#imageName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#imageName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Image"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#imageUrl -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#imageUrl">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Image"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#industry -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#industry">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Client"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#jobCardId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#jobCardId">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#JobCard"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#nominal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#nominal">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LaserScanning"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#operator -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#operator">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Property:P137"/>
+        <Operator rdf:resource="https://www.wikidata.org/wiki/Property:P137"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#out -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#out">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LaserScanning"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#overallDigitAligResidual -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#overallDigitAligResidual">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Stats"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#packageId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#packageId">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Package"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#partNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#partNumber">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Part"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#partType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#partType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Part"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#photogrammetryAvgImgDev -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#photogrammetryAvgImgDev">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Stats"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#photogrammetryAvgScaleDev -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#photogrammetryAvgScaleDev">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Stats"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#photogrammetryCycleTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#photogrammetryCycleTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Stats"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#postCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#postCode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Client"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#project -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#project">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#GRN"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#property -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#property">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LaserScanning"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#quantity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#quantity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Part"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#receiverName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#receiverName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#GRN"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#rejectToScan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#rejectToScan">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#VisualInspection"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#scale -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#scale">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#GRN"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#scanId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#scanId">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LaserScanning"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#scannerId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#scannerId">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LazerScanner"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#serialNo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#serialNo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Serialised"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <serial_no rdf:resource="https://www.wikidata.org/wiki/Q1198578"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#startTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#startTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Stats"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#temperature -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#temperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Stats"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <Tempreature rdf:resource="https://www.wikidata.org/wiki/Q11466"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#timestamp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#timestamp">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#GRN"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#tolN -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#tolN">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LaserScanning"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#tolP -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#tolP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LaserScanning"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#totalTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#totalTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Stats"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#visualizationId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#visualizationId">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#VisualInspection"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#weight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#weight">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#GRN"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Batch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Batch">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#hasPart"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Part"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isDefinedBy"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Operator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Business -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Business">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#hasPart"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#KeyContact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#CMM_Scanner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#CMM_Scanner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#MeasurementTool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Calliper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Calliper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#MeasurementTool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Client -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Client">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Business"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isSenderOf"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Package"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Employer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#DeliveryNote -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#DeliveryNote">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Note"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isPartOf"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Package"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso rdf:resource="https://www.wikidata.org/wiki/Q1508518"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Document -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Document"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Employee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Employee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Human"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isWorkerFor"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Employer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Employer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Employer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#GOM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#GOM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Manufacturer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isCreatorOf"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LazerScanner"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#GRN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#GRN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Note"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isAssignedTo"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Package"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Human -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Human"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Image -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Image"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#JobCard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#JobCard">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#ProcessDetails"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#hasPart"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#JobInstructions"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isPartOf"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Operator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#JobInstructions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#JobInstructions"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#KeyContact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#KeyContact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Employee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isCommunicatorOf"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Business"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LaserScanning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LaserScanning">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Metrology"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#hasPart"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Stats"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isInitiatedBy"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LazerScanner"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#VisualInspection"/>
+        <Lazer_Scanning rdf:resource="https://www.wikidata.org/wiki/Q11873863"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LazerScanner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LazerScanner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#MeasurementTool"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isGeneratorOf"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Stats"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isInitiatorOf"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LaserScanning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Manufacturer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Manufacturer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#MeasurementTool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#MeasurementTool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Tool"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isMeasurerOf"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Part"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Measurement_Tool rdf:resource="https://www.wikidata.org/wiki/Q1047213"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Metrology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Metrology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Micrometer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Micrometer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#MeasurementTool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Note -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Note">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Operator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Operator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Employee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#hasPart"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#JobCard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isAssignerOf"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#GRN"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isDefinerOf"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Batch"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isRunnerOf"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LazerScanner"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isVisualizerOf"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#VisualInspection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Package -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Package">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#hasPart"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Batch"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#hasPart"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#DeliveryNote"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isSentBy"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Client"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Part -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Part">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isMeasuredBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#MeasurementTool"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#ProcessDetails -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#ProcessDetails">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Ruler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Ruler">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#MeasurementTool"/>
+        <wiki:Q104555 rdf:resource="https://www.wikidata.org/wiki/Q104555"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Serialised -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Serialised">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Part"/>
+        <serial_item rdf:resource="https://www.wikidata.org/wiki/Q3479782"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Stats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Stats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Document"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isGeneratedBy"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LazerScanner"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Tool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Tool"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Visual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Visual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#VisualInspection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#VisualInspection">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Visual"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#hasPart"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Image"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isAppliedTo"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Part"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#isVisualizedBy"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Operator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Visual_Inspection rdf:resource="https://www.wikidata.org/wiki/Q448889"/>
+    </owl:Class>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Batch"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Batch">
+        <Batch rdf:resource="https://www.wikidata.org/wiki/Q661613"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Business">
+        <Business rdf:resource="https://www.wikidata.org/wiki/Q4830453"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Calliper">
+        <Calliper rdf:resource="https://www.wikidata.org/wiki/Q12408"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Client">
+        <Client rdf:resource="https://www.wikidata.org/wiki/Q852835"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Document">
+        <Document rdf:resource="https://www.wikidata.org/wiki/Q49848"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Employee">
+        <Employee rdf:resource="https://www.wikidata.org/wiki/Q703534"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Employer">
+        <Employer rdf:resource="https://www.wikidata.org/wiki/Q3053337"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Human">
+        <Human rdf:resource="https://www.wikidata.org/wiki/Q5"/>
+        <rdfs:seeAlso rdf:resource="https://www.wikidata.org/wiki/Q5"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Image">
+        <Image rdf:resource="https://www.wikidata.org/wiki/Q478798"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Manufacturer">
+        <Manufacturer rdf:resource="https://www.wikidata.org/wiki/Property:P176"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Metrology">
+        <Metrology rdf:resource="https://www.wikidata.org/wiki/Q394"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Micrometer">
+        <Micrometer rdf:resource="https://www.wikidata.org/wiki/Q12458"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Note">
+        <Note rdf:resource="https://www.wikidata.org/wiki/Q133492"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Package">
+        <Package rdf:resource="https://www.wikidata.org/wiki/Q13107365"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Part">
+        <Part rdf:resource="https://www.wikidata.org/wiki/Q15989253"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Process">
+        <Process rdf:resource="https://www.wikidata.org/wiki/Q3249551"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Tool">
+        <Tool rdf:resource="https://www.wikidata.org/wiki/Q39546"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Visual">
+        <Visual rdf:resource="https://www.wikidata.org/wiki/Q162668"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#name">
+        <name rdf:resource="https://www.wikidata.org/wiki/Q1071027"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#CMM_Scanner"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Calliper"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#LazerScanner"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Micrometer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Ruler"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#DeliveryNote"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#GRN"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#JobCard"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rod22/ontologies/2022/1/ontaddqual#Stats"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
