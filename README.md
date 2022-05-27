@@ -21,7 +21,7 @@ These are discussed one by one in the following section.
 
 ### Ontology Population
 3. Clone the repositogy on the local machine
-  - `$ git clone https://github.com/AddQual/Knowledge-Graph.git`
+  - `$ git clone https://github.com/rodaw92/Aerospace-Ontology`
   - OR alternatively you can click on the `download zip` from the top right `code` button dropdown menu.
 4.  Project Configurations.
   - Open `OwlFly/src/main/java/com/addqual/parse/PostgresParser.java`
